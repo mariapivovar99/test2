@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+}
+body{
+    background-color: #ebebeb;
+}
+.container{
+    width: 50%;
+    padding: 430px 87px 90px 63px;
+    background-color: white;
+    margin-left: 140px;
+    margin-bottom: 50px;
+}
+p{
+    margin-bottom: 65px;
+    color: #464646;
+    font-size: 24px;
+}
+article ul{
+    display: inline-block;
+    margin-top: 350px;
+    padding-top: 10px;
+    list-style: none;
+    width: 24%;
+    float: left;
+}
+article ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    line-height: 40px;
+}
+
+article ul li{
+    padding-left: 25px;
+}
+
+article:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul li:first-of-type{
+    background-color: #1f2c39;
+}
+ul:first-of-type li:first-of-type{
+    background-color: #1f2c39;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: center;
+    padding: 0;
+}
+ul:nth-child(2) li:first-of-type{
+    background-color: #03246c;
+    text-align: center;
+    padding: 0;
+
+}
+ul:last-of-type li:first-of-type{
+    background-color: #28aeaf;
+    text-align: center;
+    padding: 0;
+}
+
+ul:nth-child(3) li:first-of-type{
+    background-color: #028090;
+    text-align: center;
+    padding: 0;
+}
+
+article ul:first-of-type li a{
+    color: #1f2c39;
+}
+article ul:nth-child(2) li a{
+    color: #03246c;
+}
+article ul:nth-child(3) li a{
+    color: #028090;
+}
+article ul:last-of-type li a{
+    color: #28aeaf;
+}
+
+article ul:first-of-type li:first-of-type a{
+    color: white;
+}
+article ul:nth-child(2) li:first-of-type a{
+    color: white;
+}
+article ul:nth-child(3) li:first-of-type a{
+    color: white;
+}
+article ul:last-of-type li:first-of-type a{
+    color: white;
+}
+
+article ul:first-of-type{
+    border-right: solid 2px #1f2c39;
+
+}
+article ul:nth-child(2){
+    border-right: solid 2px #03246c;
+}
+article ul:nth-child(3){
+    border-right: solid 2px #028090;
+}
+article ul:last-of-type{
+    border-right: solid 2px #28aeaf;
+}
+
